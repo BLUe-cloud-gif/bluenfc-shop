@@ -311,7 +311,7 @@ function HowItWorks() {
           {steps.map((step, index) => (
             <AnimatedSection key={step.title} delay={index * 100}>
               <div className="relative rounded-2xl border border-border bg-background p-8 text-center">
-                <div className="mx-flex mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
                   <span className="text-lg font-bold">{index + 1}</span>
                 </div>
                 <h3 className="mt-6 text-xl font-semibold text-foreground">{step.title}</h3>
